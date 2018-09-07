@@ -1,4 +1,12 @@
 # Created by .ignore support plugin (hsz.mobi)
+
+# Outputs
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+jsconfig.json
+.vscode/
+
 ### Windows template
 # Windows thumbnail cache files
 Thumbs.db
