@@ -4,6 +4,7 @@
   "description": "Schematics collection for generation angular project with support and configuration for useful framework and tools",
   "main": "index",
   "scripts": {
+    "schematics": "schematics"
   },
   "engines": {
     "node": ">=8"
@@ -20,7 +21,9 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@angular-devkit/schematics-cli": "^0.8.1"
   },
   "devDependencies": {
+    "yarn": "^1.9.4"
   }
 }
