@@ -1,0 +1,26 @@
+{
+  "name": "schemaberry",
+  "version": "1.0.0",
+  "description": "Schematics collection for generation angular project with support and configuration for useful framework and tools",
+  "main": "index",
+  "scripts": {
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "homepage": "https://github.com/tgorka/schemaberry",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgorka/schemaberry.git"
+  },
+  "private": false,
+  "author": {
+    "name": "Tomasz Gorka",
+    "email": "tomasz@gorka.org.pl"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
