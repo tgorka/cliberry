@@ -1,8 +1,9 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "schemaberry": {
-      "description": "A blank schematic.",
+    "application": {
+      "aliases": ["init", "new", "ng-new"],
+      "description": "Init Angular project with SchemaBerry.",
       "factory": "./schemaberry/index#schemaberry"
     }
   }

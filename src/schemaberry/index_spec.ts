@@ -9,7 +9,7 @@ const collectionPath = path.join(__dirname, '../collection.json');
 describe('schemaberry', () => {
   it('works', () => {
     const runner = new SchematicTestRunner('schematics', collectionPath);
-    const tree = runner.runSchematic('schemaberry', {}, Tree.empty());
+    const tree = runner.runSchematic('application', {}, Tree.empty());
 
     expect(tree.files).toEqual([]);
   });

@@ -29,6 +29,14 @@
     "@angular-devkit/core" "0.8.1"
     rxjs "~6.2.0"
 
+"@schematics/angular@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-0.8.1.tgz#30d15bf46d40f4694bf60d61516a137ea44427f0"
+  dependencies:
+    "@angular-devkit/core" "0.8.1"
+    "@angular-devkit/schematics" "0.8.1"
+    typescript ">=2.6.2 <2.10"
+
 "@schematics/schematics@0.8.1":
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@schematics/schematics/-/schematics-0.8.1.tgz#4f9e554dbfb55904144efe6fec19b6cfac51ab8b"
@@ -1089,7 +1097,7 @@ tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
 
-typescript@^2.5.2:
+"typescript@>=2.6.2 <2.10", typescript@^2.5.2:
   version "2.9.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
 
