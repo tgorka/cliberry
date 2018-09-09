@@ -24,10 +24,38 @@ and use command to generate the sources:
 ng new --name "NAME OF YOUR PROJECT" -c schemaberry --force --description "DESCRIPTION OF YOUT PROJECT"
 ```
 
+to build the project use build command:
+
+```
+yarn build
+```
+
+or 
+
+```
+npm run build
+```
+
+and to create the bundle after the build:
+
+```
+yarn package
+```
+
+or 
+
+```
+npm run package
+```
+
 The generated project will use the web component of the name: `<NAME-OF-YOUR-PROJECT></NAME-OF-YOUR-PROJECT>`
 
-after including generated project boundle with name: `NAME-OF-YOUR-PROJECT.min.js`
+After including generated project boundle with name: `NAME-OF-YOUR-PROJECT.min.js`
 
+To develop the project you can impor it into the InteliJ IDEA (or Web Storm) IDE 
+and use defined targets to run the project.
+
+Or use `yarn/npm` to `run/test/lint` the project
 
 ## Development server
 
