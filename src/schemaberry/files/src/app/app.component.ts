@@ -1,11 +1,11 @@
 import * as _debug from "debug";
 import {
-  Input,
+  ChangeDetectionStrategy,
   Component,
   ViewEncapsulation,
   Output,
   EventEmitter,
-  OnInit,
+  ChangeDetectorRef,
 } from '@angular/core';
 
 
@@ -23,7 +23,8 @@ error.log = console.error.bind(console);
   selector: '<%= utils.dasherize(name) %>',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  encapsulation: ViewEncapsulation.Emulated
+  encapsulation: ViewEncapsulation.Emulated,
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppComponent {
   title = '<%= utils.dasherize(name) %>';
