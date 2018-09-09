@@ -4,6 +4,31 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
+To generate the application add globally the libs:
+
+```
+yarn add g @angular/cli
+yarn add g schemaberry
+```
+
+or using npm
+
+```
+npm install g @angular/cli
+npm install g schemaberry
+```
+
+and use command to generate the sources:
+
+```
+ng new --name "NAME OF YOUR PROJECT" -c schemaberry --force --description "DESCRIPTION OF YOUT PROJECT"
+```
+
+The generated project will use the web component of the name: `<NAME-OF-YOUR-PROJECT></NAME-OF-YOUR-PROJECT>`
+
+after including generated project boundle with name: `NAME-OF-YOUR-PROJECT.min.js`
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
