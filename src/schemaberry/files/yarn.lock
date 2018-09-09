@@ -146,6 +146,12 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/elements@^6.1.7":
+  version "6.1.7"
+  resolved "https://registry.yarnpkg.com/@angular/elements/-/elements-6.1.7.tgz#fc9f20dfd68813eae564c15efbd8c28aed2b5d3e"
+  dependencies:
+    tslib "^1.9.0"
+
 "@angular/forms@^6.1.0":
   version "6.1.7"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-6.1.7.tgz#42484c2ab1079fd34ddd637eb143db6a17be4990"
@@ -447,6 +453,10 @@
     "@webassemblyjs/ast" "1.5.13"
     "@webassemblyjs/wast-parser" "1.5.13"
     long "^3.2.0"
+
+"@webcomponents/custom-elements@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@webcomponents/custom-elements/-/custom-elements-1.2.0.tgz#7fc8da6c8243b15b4f69c74c65dfe2a4996c694c"
 
 abbrev@1:
   version "1.1.1"
@@ -5493,8 +5503,8 @@ spdx-expression-parse@^3.0.0:
     spdx-license-ids "^3.0.0"
 
 spdx-license-ids@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.0.tgz#7a7cd28470cc6d3a1cfe6d66886f6bc430d3ac87"
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.1.tgz#e2a303236cac54b04031fa7a5a79c7e701df852f"
 
 spdy-transport@^2.0.18:
   version "2.1.0"
@@ -6455,6 +6465,6 @@ yn@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/yn/-/yn-2.0.0.tgz#e5adabc8acf408f6385fc76495684c88e6af689a"
 
-zone.js@~0.8.26:
+"zone.js@git://github.com/JiaLiPassion/zone.js#duplicate-patch-dist":
   version "0.8.26"
-  resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.8.26.tgz#7bdd72f7668c5a7ad6b118148b4ea39c59d08d2d"
+  resolved "git://github.com/JiaLiPassion/zone.js#a566a037c47049440b1780a488f8055d7d49974c"

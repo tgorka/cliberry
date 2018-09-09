@@ -5,8 +5,10 @@
   "main": "index",
   "scripts": {
     "ng": "ng",
+    "prestart": "yarn --dev",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
+    "package": "cat dist/{common,runtime,polyfills,main}.js > dist/<%= utils.dasherize(name) %>.min.js && cat src/index.html > dist/index.html",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -29,14 +31,17 @@
     "@angular/common": "^6.1.0",
     "@angular/compiler": "^6.1.0",
     "@angular/core": "^6.1.0",
+    "@angular/elements": "^6.1.7",
     "@angular/forms": "^6.1.0",
     "@angular/http": "^6.1.0",
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
+    "@webcomponents/custom-elements": "^1.2.0",
     "core-js": "^2.5.4",
+    "debug": "^3.1.0",
     "rxjs": "~6.2.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "git://github.com/JiaLiPassion/zone.js#duplicate-patch-dist"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.8.0",

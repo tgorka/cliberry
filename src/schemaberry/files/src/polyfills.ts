@@ -18,6 +18,14 @@
  * BROWSER POLYFILLS
  */
 
+/**
+ * AWS Aplify angular 6 polyfill
+ */
+(window as any).global = (window as any).global || window;
+(window as any).process = (window as any).process || {
+  browser: true
+};
+
 /** IE9, IE10 and IE11 requires all of the following polyfills. **/
 // import 'core-js/es6/symbol';
 // import 'core-js/es6/object';
