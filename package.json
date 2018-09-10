@@ -1,5 +1,5 @@
 {
-  "name": "schemaberry",
+  "name": "cliberry",
   "version": "0.0.1",
   "description": "Schematics collection for generation angular project with support and configuration for useful framework and tools.",
   "main": "index",
@@ -15,10 +15,10 @@
   "bin": {
     "cliberry": "./bin/cliberry"
   },
-  "homepage": "https://github.com/tgorka/schemaberry",
+  "homepage": "https://github.com/tgorka/cliberry",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tgorka/schemaberry.git"
+    "url": "https://github.com/tgorka/cliberry.git"
   },
   "private": false,
   "author": {
