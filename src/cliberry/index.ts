@@ -13,15 +13,19 @@ import {
     template,
     url,
 } from "@angular-devkit/schematics";
+import { dasherize, classify } from '@angular-devkit/core/src/utils/strings';
 import { Schema as Options } from "./schema";
 
 
-// You don"t have to export the function as default. You can also have more than one rule factory
+const stringUtils = { dasherize, classify };
+
+// You don't have to export the function as default. You can also have more than one rule factory
 // per file.
 export function cliberry(options: Options): Rule {
     return mergeWith(apply(url("./files"), [
         template({
             utils: strings,
+            ...stringUtils,
             ...options,
             "dot": ".",
             //latestVersions,
