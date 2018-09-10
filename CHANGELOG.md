@@ -10,7 +10,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 ### Fixed
 
-## [0.1.0-alpha] - 2018-06-XX
+
+## [0.1.1] - 2018-09-10
+### Added
+- cliberry in the generated project
+
+### Changed
+- using cliberry in the pacjage.json scripts instead ng by default 
+(even for yarn ng)
+
+### Fixed
+- .idea module file name
+- dates in the changelog
+
+
+## [0.1.0] - 2018-09-10
 ### Added
 - Use cli that will call integrated angular cli
 - Cli will add --collection option for the template 
@@ -26,7 +40,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - typos in README
 - update statistics to not calculate lock file
 
-## [0.0.1] - 2018-06-09
+
+## [0.0.1] - 2018-09-09
 ### Added
 - generate project with:
   * angular 6.1

@@ -4,14 +4,15 @@
   "description": "<%= description %>",
   "main": "index",
   "scripts": {
-    "ng": "ng",
+    "ng": "cliberry ng6",
+    "cliberry": "cliberry",
     "prestart": "yarn --dev",
-    "start": "ng serve",
-    "build": "ng build --prod",
+    "start": "cliberry ng6 serve",
+    "build": "cliberry ng6 build --prod",
     "package": "cat dist/{styles,runtime,polyfills,main}.js > dist/<%= utils.dasherize(name) %>.min.js && cat src/index.html > dist/index.html",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "test": "cliberry ng6 test",
+    "lint": "cliberry ng6 lint",
+    "e2e": "cliberry ng6 e2e"
   },
   "homepage": "https://<%= utils.dasherize(name) %>",
   "repository": {
@@ -51,6 +52,7 @@
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
+    "cliberry": "^0.1.0",
     "codelyzer": "~4.3.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
