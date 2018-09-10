@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/schemaberry.iml" filepath="$PROJECT_DIR$/schemaberry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cliberry.iml" filepath="$PROJECT_DIR$/cliberry.iml" />
     </modules>
   </component>
 </project>
