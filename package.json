@@ -1,6 +1,6 @@
 {
   "name": "cliberry",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "Cli for generation angular project with support and configuration for useful framework and tools using schematics.",
   "main": "index",
   "schematics": "./src/collection.json",
@@ -13,7 +13,7 @@
     "node": ">=8.9"
   },
   "bin": {
-    "cliberry": "./bin/cliberry"
+    "cliberry": "./bin/cliberry.js"
   },
   "homepage": "https://github.com/tgorka/cliberry",
   "repository": {
@@ -32,15 +32,14 @@
   "dependencies": {
     "@angular-devkit/core": "^0.8.1",
     "@angular-devkit/schematics": "^0.8.1",
-    "@angular-devkit/schematics-cli": "^0.8.1",
-    "@schematics/angular": "^0.8.1",
-    "@types/jasmine": "^2.6.0",
-    "@types/node": "^8.0.31",
-    "jasmine": "^2.8.0",
-    "typescript": "^2.5.2"
+    "@angular/cli": "^6.2.1",
+    "@schematics/angular": "^0.8.1"
   },
   "devDependencies": {
-    "@angular/cli": "^6.2.1",
-    "yarn": "^1.9.4"
+    "@angular-devkit/schematics-cli": "^0.8.1",
+    "@types/jasmine": "^2.8.8",
+    "@types/node": "^10.9.4",
+    "jasmine": "^3.2.0",
+    "typescript": "^3.0.3"
   }
 }

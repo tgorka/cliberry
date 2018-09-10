@@ -11,6 +11,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 
+## [0.1.4] - 2018-09-10
+### Fixed
+- reorder dependencies and devDependencies for npm package
+to have needed package
+
+## Changed
+- adding extension into the bin file foe ide editors
+
+## [0.1.3] - 2018-09-10
+### Fixed
+- adding js files to the npm package
+
+## [0.1.2] - 2018-09-10
+corrupted published
+
 ## [0.1.1] - 2018-09-10
 ### Added
 - cliberry in the generated project
