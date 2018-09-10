@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Use cli that will call integrated angular cli
 - Cli will add --collection option for the template 
 - CHANGELOG
+- published in npm packages
 
 ### Changed
 - update README with usage of the cli
