@@ -7,22 +7,25 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 To generate the application add globally the libs:
 
 ```
-yarn add g @angular/cli
-yarn add g schemaberry
+yarn add g cliberry
 ```
 
 or using npm
 
 ```
-npm install g @angular/cli
-npm install g schemaberry
+npm install g cliberry
 ```
 
 and use command to generate the sources:
 
 ```
-ng new --name "NAME OF YOUR PROJECT" -c schemaberry --force --description "DESCRIPTION OF YOUT PROJECT"
+cliberry ng6 new --name "NAME OF YOUR PROJECT" --force --description "DESCRIPTION OF YOUT PROJECT"
 ```
+
+`ng6` can not be needed if it's the default target of ng cli 
+(can be changed) or it can be used as `ng` (can be upgraded).
+
+`--force` is not needed for an empty folder
 
 to build the project use build command:
 
@@ -50,9 +53,9 @@ npm run package
 
 The generated project will use the web component of the name: `<NAME-OF-YOUR-PROJECT></NAME-OF-YOUR-PROJECT>`
 
-After including generated project boundle with name: `NAME-OF-YOUR-PROJECT.min.js`
+After including generated project bundle with name: `NAME-OF-YOUR-PROJECT.min.js`
 
-To develop the project you can impor it into the InteliJ IDEA (or Web Storm) IDE 
+To develop the project you can import it into the InteliJ IDEA (or Web Storm) IDE 
 and use defined targets to run the project.
 
 Or use `yarn/npm` to `run/test/lint` the project

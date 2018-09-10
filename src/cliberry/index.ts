@@ -3,7 +3,7 @@
  * Tomasz Gorka <https://tomasz.gorka.org.pl>
  *
  * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://github.com/tgorka/schemaberry/LICENSE
+ * found in the LICENSE file at https://github.com/tgorka/cliberry/LICENSE
  */
 import { strings } from "@angular-devkit/core";
 import {
@@ -18,7 +18,7 @@ import { Schema as Options } from "./schema";
 
 // You don"t have to export the function as default. You can also have more than one rule factory
 // per file.
-export function schemaberry(options: Options): Rule {
+export function cliberry(options: Options): Rule {
     return mergeWith(apply(url("./files"), [
         template({
             utils: strings,

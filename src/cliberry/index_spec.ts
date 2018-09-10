@@ -3,7 +3,7 @@
  * Tomasz Gorka <https://tomasz.gorka.org.pl>
  *
  * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://github.com/tgorka/schemaberry/LICENSE
+ * found in the LICENSE file at https://github.com/tgorka/cliberry/LICENSE
  */
 import {SchematicTestRunner} from '@angular-devkit/schematics/testing';
 import { Schema as Options } from './schema';

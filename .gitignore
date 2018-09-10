@@ -1,9 +1,10 @@
 # Created by .ignore support plugin (hsz.mobi)
 
 # Outputs
-src/**/*.js
-src/**/*.js.map
-#src/**/*.d.ts
+**/*.js
+**/*.js.map
+**/*.d.ts
+!/src/**/schema.d.ts
 !src/**/files/**/*.js
 jsconfig.json
 .vscode/

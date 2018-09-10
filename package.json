@@ -1,7 +1,7 @@
 {
-  "name": "schemaberry",
-  "version": "0.0.1",
-  "description": "Schematics collection for generation angular project with support and configuration for useful framework and tools.",
+  "name": "cliberry",
+  "version": "0.1.0",
+  "description": "Cli for generation angular project with support and configuration for useful framework and tools using schematics.",
   "main": "index",
   "schematics": "./src/collection.json",
   "scripts": {
@@ -10,12 +10,15 @@
     "test": "yarn build && jasmine src/**/*_spec.js"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=8.9"
   },
-  "homepage": "https://github.com/tgorka/schemaberry",
+  "bin": {
+    "cliberry": "./bin/cliberry"
+  },
+  "homepage": "https://github.com/tgorka/cliberry",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tgorka/schemaberry.git"
+    "url": "https://github.com/tgorka/cliberry.git"
   },
   "private": false,
   "author": {
