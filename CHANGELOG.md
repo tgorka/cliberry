@@ -16,6 +16,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Cli will add --collection option for the template 
 - CHANGELOG
 
+### Changed
+- update README with usage of the cli
+
 ### Fixed
 - typos in README
 - update statistics to not calculate lock file

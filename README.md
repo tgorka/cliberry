@@ -2,6 +2,47 @@
 Schematics collection for generation angular project with support and configuration for useful framework and tools
 This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
 
+For using the cli you need to install the npm package first:
+
+```
+npm install g cliberry
+```
+
+or 
+
+```
+yarn g cliberry
+```
+
+and then using cli like an [@angular/cli](https://cli.angular.io/).
+
+The default schematics will be set to local templates if needed. They can be override 
+by adding additional --collection parameter.
+
+There is no need to install `@angular/cli` it is included inside `cliberry` tool.
+
+Have fun with using `cliberry` ;).
+
+### customized API
+
+##### cliberry new
+Create new application with:
+  * angular 6.1
+  * debug framework
+  * yarn 
+  * yarn lock file
+  * onpush angular strategy
+  * angular elements
+  * scss
+  * tests (jasmine, protractor - defaults)
+  * lint
+  * package the output into single bundle
+  * code build
+  * IDEA config 
+  * editorconfig
+  * gitignore
+  * README
+
 ### Testing
 
 To test locally, install `@angular-devkit/schematics-cli` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.

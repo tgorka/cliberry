@@ -12,6 +12,9 @@
   "engines": {
     "node": ">=8"
   },
+  "bin": {
+    "cliberry": "./bin/cliberry"
+  },
   "homepage": "https://github.com/tgorka/schemaberry",
   "repository": {
     "type": "git",
