@@ -1,6 +1,6 @@
 {
   "name": "cliberry",
-  "version": "0.1.5",
+  "version": "0.1.8",
   "description": "Cli for generation angular project with support and configuration for useful framework and tools using schematics.",
   "main": "index",
   "schematics": "./src/collection.json",
@@ -26,7 +26,9 @@
     "email": "tomasz@gorka.org.pl"
   },
   "keywords": [
-    "schematics"
+    "schematics",
+    "cliberry",
+    "cli"
   ],
   "license": "MIT",
   "dependencies": {
@@ -34,7 +36,7 @@
     "@angular-devkit/schematics": "^0.8.1",
     "@angular/cli": "^6.2.1",
     "@schematics/angular": "^0.8.1",
-    "cliberry-schematics": "^0.0.3"
+    "cliberry-schematics": "0.0.5"
   },
   "devDependencies": {
     "@angular-devkit/schematics-cli": "^0.8.1",

@@ -11,6 +11,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 
+## [0.1.8] - 2018-09-11
+
+
+## [0.1.7] - 2018-09-11
+### Changed
+- cliberry-schematics updated to 0.0.5
+
+
+## [0.1.6] - 2018-09-11
+### Changed
+- cliberry-schematics updated to 0.0.4
+
 ## [0.1.5] - 2018-09-11
 ### Added
 - schematics templates use from npm cliberry-schematics

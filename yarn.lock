@@ -298,9 +298,9 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-cliberry-schematics@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/cliberry-schematics/-/cliberry-schematics-0.0.3.tgz#411f5dad134fd78e62347490e695f518cfd67b47"
+cliberry-schematics@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/cliberry-schematics/-/cliberry-schematics-0.0.5.tgz#6c0353c8a53cb2d1cc534f677c1e3b4fb3767886"
   dependencies:
     "@angular-devkit/core" "^0.8.1"
     "@angular-devkit/schematics" "^0.8.1"
