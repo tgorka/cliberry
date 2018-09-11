@@ -1,6 +1,26 @@
 # cliberry
-Schematics collection for generation angular project with support and configuration for useful framework and tools
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
+
+[![Version npm](https://img.shields.io/npm/v/cliberry.svg)](https://www.npmjs.com/package/cliberry)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT) 
+[![Github Downloads](https://img.shields.io/github/downloads/tgorka/cliberry/total.svg)](https://github.com/tgorka/cliberry)
+[![NPM Downloads](https://img.shields.io/npm/dt/cliberry.svg)](https://www.npmjs.com/package/cliberry)
+[![NPM Gziped size](https://img.shields.io/bundlephobia/minzip/cliberry.svg)](https://www.npmjs.com/package/cliberry)
+[![Dependency Status](https://david-dm.org/tgorka/cliberry.svg)](https://david-dm.org/tgorka/cliberry)
+[![Build Status](https://travis-ci.org/tgorka/cliberry.svg?branch=master)](https://travis-ci.org/tgorka/cliberry)
+[![Coverage percentage](https://coveralls.io/repos/tgorka/cliberry/badge.svg)](https://coveralls.io/r/tgorka/cliberry)
+
+Cli for generation angular project with support and configuration for useful framework and tools using schematics.
+
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Description](#description)
+* [Usage](#usage)
+* [Available aliases](#available-aliases)
+
+
+### Installation
 
 For using the cli you need to install the npm package first:
 
@@ -14,56 +34,42 @@ or
 yarn g cliberry
 ```
 
-and then using cli like an [@angular/cli](https://cli.angular.io/).
+
+### Description
+
+Using `cliberry` is like using an [@angular/cli](https://cli.angular.io/).
 
 The default schematics will be set to local templates if needed. They can be override 
-by adding additional --collection parameter.
+by adding additional `--collection` parameter.
 
 There is no need to install `@angular/cli` it is included inside `cliberry` tool.
 
-Have fun with using `cliberry` ;).
 
-### customized API
+### Usage
 
-##### cliberry new
-Create new application with:
-  * angular 6.1
-  * debug framework
-  * yarn 
-  * yarn lock file
-  * onpush angular strategy
-  * angular elements
-  * scss
-  * tests (jasmine, protractor - defaults)
-  * lint
-  * package the output into single bundle
-  * code build
-  * IDEA config 
-  * editorconfig
-  * gitignore
-  * README
-
-### Testing
-
-To test locally, install `@angular-devkit/schematics-cli` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.
-
-Check the documentation with
-```bash
-schematics --help
+```batch
+cliberry ng6 new --name MY-PROJECT --description 'DESCRIPTION OF MY PROJECT'
 ```
 
-### Unit Testing
+This command will generate in the current folder structure 
+of the project types `ng6`.
 
-`npm run test` will run the unit tests, using Jasmine as a runner and test framework.
+There is one additional parameter (alias) comparing to `Angular CLI`: `ng6`
+It needs to be the first parameter that will describe what 
+to generate (more specifically which schematics collection to use).
+If no alias is used the name of the alias will be `default`.
 
-### Publishing
 
-To publish, simply do:
-
-```bash
-npm run build
-npm publish
+To generate a project that will generate new alias (schematics collection):
+```batch
+cliberry schematics new --alias ALIAS-NAME --name MY-PROJECT --description 'DESCRIPTION OF MY PROJECT'
 ```
 
-That's it!
+
+### Available aliases
+
+##### [ng6, ng, angular, angular6, default](https://github.com/tgorka/cliberry-ng6)
+##### [schematics, templates](https://github.com/tgorka/cliberry-schematics)
  
+ 
+Have fun with using `cliberry` ;).

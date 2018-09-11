@@ -298,9 +298,17 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-cliberry-schematics@0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/cliberry-schematics/-/cliberry-schematics-0.0.5.tgz#6c0353c8a53cb2d1cc534f677c1e3b4fb3767886"
+cliberry-ng6@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/cliberry-ng6/-/cliberry-ng6-0.0.3.tgz#04c800578d396921836616cd32d57e11367b3817"
+  dependencies:
+    "@angular-devkit/core" "^0.8.1"
+    "@angular-devkit/schematics" "^0.8.1"
+    "@schematics/angular" "^0.8.1"
+
+cliberry-schematics@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/cliberry-schematics/-/cliberry-schematics-0.0.6.tgz#fb73cf3404bd95d3b424ebfea7b6d2dbda2f9814"
   dependencies:
     "@angular-devkit/core" "^0.8.1"
     "@angular-devkit/schematics" "^0.8.1"

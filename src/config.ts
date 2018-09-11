@@ -5,10 +5,9 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://github.com/tgorka/cliberry/LICENSE
  */
+import {cliberry as ng6} from 'cliberry-ng6';
 import {cliberry as schematics} from 'cliberry-schematics';
 
-// define ng6 manually
-const ng6 = {template: 'cliberry', customCmds: ['new'], alias: 'ng6'};
 
 export type Config = { [s: string]: { template: string, customCmds: string[] } };
 const config: Config = {};

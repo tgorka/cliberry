@@ -1,9 +1,8 @@
 {
   "name": "cliberry",
-  "version": "0.1.8",
+  "version": "0.1.10",
   "description": "Cli for generation angular project with support and configuration for useful framework and tools using schematics.",
-  "main": "index",
-  "schematics": "./src/collection.json",
+  "main": "./src/index",
   "scripts": {
     "schematics": "schematics",
     "build": "tsc -p tsconfig.json",
@@ -36,7 +35,8 @@
     "@angular-devkit/schematics": "^0.8.1",
     "@angular/cli": "^6.2.1",
     "@schematics/angular": "^0.8.1",
-    "cliberry-schematics": "0.0.5"
+    "cliberry-ng6": "0.0.3",
+    "cliberry-schematics": "0.0.6"
   },
   "devDependencies": {
     "@angular-devkit/schematics-cli": "^0.8.1",

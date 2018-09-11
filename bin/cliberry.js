@@ -29,5 +29,5 @@ if (Number(version[0]) < 8 || (Number(version[0]) === 8 && Number(version[1]) < 
   process.exit(3);
 }
 
-require('../lib/cli-parameter');
+require('../src/index');
 require('@angular/cli/lib/init');

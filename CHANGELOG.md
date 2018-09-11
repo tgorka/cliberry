@@ -11,7 +11,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 
-## [0.1.8] - 2018-09-11
+## [0.1.10] - 2018-09-11
+### Changed
+- updated cliberry-ng6
+- updated cliberry-schematics
+
+## [0.1.9] - 2018-09-11
+### Changed
+- move ng6 collection to an external repository
+- updating statistics config
+- updating readme
+- adding cliberry-ng6
+- reorganizing source code structure
 
 
 ## [0.1.7] - 2018-09-11
