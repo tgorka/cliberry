@@ -11,6 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 
+## [0.1.12] - 2018-09-12
+### Fixed
+- update cliberry-ng6
+- update cliberry-schematics
+
+
 ## [0.1.11] - 2018-09-12
 ### Fixed
 - change \r\n to \n
