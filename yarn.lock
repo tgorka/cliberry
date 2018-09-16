@@ -306,9 +306,9 @@ cliberry-ng6@^0.0.5:
     "@angular-devkit/schematics" "^0.8.1"
     "@schematics/angular" "^0.8.1"
 
-cliberry-schematics@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/cliberry-schematics/-/cliberry-schematics-0.0.8.tgz#f633823d97784fc1a89d830394a283bf468ebbd5"
+cliberry-schematics@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/cliberry-schematics/-/cliberry-schematics-0.0.9.tgz#ac7bc7f5399001d702a92994f52cf8cf985b0566"
   dependencies:
     "@angular-devkit/core" "^0.8.1"
     "@angular-devkit/schematics" "^0.8.1"
